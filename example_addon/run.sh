@@ -1,6 +1,4 @@
-#!/usr/bin/with-contenv bashio
-
-#echo Hello world!
+#!/usr/bin/env bashio
 
 USERNAME=$(bashio::config 'username')
 
